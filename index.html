@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="bn">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="main mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/mac.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2>Customized Your Blue 24 inch iMac With Apple M1 Chip</h2>
+                    <p class="mt-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse adipisci ut iusto eos. Temporibus aliquam dolores ducimus, sed suscipit rem repudiandae ipsa hic quasi nobis praesentium facilis, ab iste?</p>
+
+                    <h6>Memory</h6>
+                    <span>
+                        <button class="btn btn-light border-dark btn-outline-dark" id="gb8">8GB unifid Memory</button>
+                        <button class="btn btn-light border-dark btn-outline-dark" id="gb16">16GB unifid Memory</button>
+                    </span>
+                    <h6 class="mt-5">Storage</h6>
+                    <span class="mb-5">
+                        <button class="btn btn-light border-dark btn-outline-dark" id="ssd256">256GB SSD Stroge</button>
+                        <button class="btn btn-light border-dark btn-outline-dark" id="ssd512">512GB SSD Stroge</button>
+                        <button class="btn btn-light border-dark btn-outline-dark" id="ssd1T">1T SSD Stroge</button>
+                    </span>
+                    <h6 class="mt-5">Memory</h6>
+                    <span class="mb-5">
+                        <button class="btn btn-light border-dark btn-outline-dark" id="free">Friday,Aug 25 Prime Free Delivery</button>
+                        <button class="btn btn-light border-dark btn-outline-dark" id="chargedelivery">Friday,Aug 21 Delivery Charge $20</button>
+                    </span>
+                    <!-- Price List -->
+                    <div class="price-list mt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="col">Best Price</th>
+                                            <th scope="col">$<span id="best-price">1299</span></th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Extra Memory Cost</th>
+                                            <th scope="col">$<span id="exta-memory">0</span></th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Extra Storage Cost</th>
+                                            <th scope="col">$<span id="extra-storage">0</span></th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Delivery Cost</th>
+                                            <th scope="col">$<span id="extra-delivery">0</span></th>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr style="border-top:2px solid #000000;">
+                                            <th scope="col">Total Price</th>
+                                            <th scope="col">$<span id="total-price">1299</span></th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <h6>Add Pomo Code</h6>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Enter pomo code" aria-label="enter pomo code"
+                                        aria-describedby="basic-addon2" id="pomo-input">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-danger" type="button" id="pomo-btn">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center border-top p-3">
+            <h1>Total:$<span id="grand-total">1299</span></h1>
+        </div>
+        
+    </div>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
